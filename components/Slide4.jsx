@@ -73,6 +73,7 @@ const Slide4 = () => {
                 <div className="tag archivo-400">Fast API</div>
                 <div className="tag archivo-400">Flask</div>
                 <div className="tag archivo-400">Next.js</div>
+                <div className="tag archivo-400">Bootstrap</div>
               </td>
             </tr>
             <tr>
