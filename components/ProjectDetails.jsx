@@ -49,6 +49,8 @@ const ProjectDetails = ({ detail, state }) => {
             <video
               src={detail.video}
               controls
+              autoPlay
+              loop
               className="project-video"
             ></video>
           ) : null}

@@ -34,66 +34,68 @@ const Slide4 = () => {
         <h2 className="skill-header archivo-200">SKILLS</h2>
         <div className="skills-tags archivo-100">
           <table className="skills-table">
-            <tr>
-              <td>Languages : </td>
-              <td>
-                <div className="tag archivo-400">C/C++</div>
-                <div className="tag archivo-400">Python</div>
-                <div className="tag archivo-400">Javascript</div>
-                {/* <div className="tag archivo-400">HTML</div> */}
-              </td>
-            </tr>
-            <tr>
-              <td>Libraries : </td>
-              <td>
-                <div className="tag archivo-400">Numpy</div>
-                <div className="tag archivo-400">Pandas</div>
-                <div className="tag archivo-400">Scikit-learn</div>
-                <div className="tag archivo-400">Open-CV</div>
-                <div className="tag archivo-400">Transformers</div>
-                <div className="tag archivo-400">Pytorch</div>
-                <div className="tag archivo-400">React.js</div>
-                <div className="tag archivo-400">Redux</div>
-                <div className="tag archivo-400">Express.js</div>
-                {/* <div className="tag archivo-400">Scikit-learn</div> */}
-              </td>
-            </tr>
-            <tr>
-              <td>Databases : </td>
-              <td>
-                <div className="tag archivo-400">Mongo DB</div>
-                <div className="tag archivo-400">My SQL</div>
-                <div className="tag archivo-400">Postgre SQL</div>
-              </td>
-            </tr>
-            <tr>
-              <td>Frameworks : </td>
-              <td>
-                <div className="tag archivo-400">Langchain</div>
-                <div className="tag archivo-400">Fast API</div>
-                <div className="tag archivo-400">Flask</div>
-                <div className="tag archivo-400">Next.js</div>
-                <div className="tag archivo-400">Bootstrap</div>
-              </td>
-            </tr>
-            <tr>
-              <td>Tools : </td>
-              <td>
-                <div className="tag archivo-400">Git/Github</div>
-                <div className="tag archivo-400">Postman</div>
-                <div className="tag archivo-400">Firebase</div>
-                <div className="tag archivo-400">Figma</div>
-                <div className="tag archivo-400">Jupyter</div>
-                <div className="tag archivo-400">VS Code</div>
-              </td>
-            </tr>
-            <tr>
-              <td>Others : </td>
-              <td>
-                <div className="tag archivo-400">Arduino</div>
-                <div className="tag archivo-400">CAD</div>
-              </td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Languages : </td>
+                <td>
+                  <div className="tag archivo-400">C/C++</div>
+                  <div className="tag archivo-400">Python</div>
+                  <div className="tag archivo-400">Javascript</div>
+                  {/* <div className="tag archivo-400">HTML</div> */}
+                </td>
+              </tr>
+              <tr>
+                <td>Libraries : </td>
+                <td>
+                  <div className="tag archivo-400">Numpy</div>
+                  <div className="tag archivo-400">Pandas</div>
+                  <div className="tag archivo-400">Scikit-learn</div>
+                  <div className="tag archivo-400">Open-CV</div>
+                  <div className="tag archivo-400">Transformers</div>
+                  <div className="tag archivo-400">Pytorch</div>
+                  <div className="tag archivo-400">React.js</div>
+                  <div className="tag archivo-400">Redux</div>
+                  <div className="tag archivo-400">Express.js</div>
+                  {/* <div className="tag archivo-400">Scikit-learn</div> */}
+                </td>
+              </tr>
+              <tr>
+                <td>Databases : </td>
+                <td>
+                  <div className="tag archivo-400">Mongo DB</div>
+                  <div className="tag archivo-400">My SQL</div>
+                  <div className="tag archivo-400">Postgre SQL</div>
+                </td>
+              </tr>
+              <tr>
+                <td>Frameworks : </td>
+                <td>
+                  <div className="tag archivo-400">Langchain</div>
+                  <div className="tag archivo-400">Fast API</div>
+                  <div className="tag archivo-400">Flask</div>
+                  <div className="tag archivo-400">Next.js</div>
+                  <div className="tag archivo-400">Bootstrap</div>
+                </td>
+              </tr>
+              <tr>
+                <td>Tools : </td>
+                <td>
+                  <div className="tag archivo-400">Git/Github</div>
+                  <div className="tag archivo-400">Postman</div>
+                  <div className="tag archivo-400">Firebase</div>
+                  <div className="tag archivo-400">Figma</div>
+                  <div className="tag archivo-400">Jupyter</div>
+                  <div className="tag archivo-400">VS Code</div>
+                </td>
+              </tr>
+              <tr>
+                <td>Others : </td>
+                <td>
+                  <div className="tag archivo-400">Arduino</div>
+                  <div className="tag archivo-400">CAD</div>
+                </td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>

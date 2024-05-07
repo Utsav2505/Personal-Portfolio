@@ -96,6 +96,20 @@ body {
   height: 7vh;
   border-radius: 1vw;
 }
+.slide-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #000000;
+  border-radius: 1vw;
+  padding: 0.5vw;
+  font-family: "Courier New", Courier, monospace;
+  width: 3vw;
+  border: 0.1vw solid #00c4ac;
+  text-align: center;
+}
 .previous-btn {
   background-color: #00c4ac;
   width: 6vw;

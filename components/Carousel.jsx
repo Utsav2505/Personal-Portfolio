@@ -24,7 +24,7 @@ const Carousel = ({ children: slides }) => {
           <img src="./prev icon.svg" />
           Prev
         </div>
-        <div style={{ color: "white", margin: "0 auto" }}>{curr}</div>
+        <div className="slide-indicator">{curr}/4</div>
         <div className="next-btn" onClick={next}>
           Next
           <img src="./next icon.svg" />

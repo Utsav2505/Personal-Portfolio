@@ -48,34 +48,35 @@ const Slide2 = () => {
         <p style={a1}>I am</p>
         <p style={a2}>interested</p>
         <p style={{ ...f1, ...a1 }}>in</p>
-        <p style={a3}>
+        <div style={a3}>
           <Typewriter
             options={{
               autoStart: true,
               loop: true,
               pauseFor: 1000,
+              style: { a3 },
             }}
             onInit={(typewriter) => {
               typewriter
                 .typeString("Machine Learning")
-                .pauseFor(1000)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString("Computer Vision")
-                .pauseFor(1000)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString("Neuromorphic Computing")
-                .pauseFor(1000)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString("Quantum Computing")
-                .pauseFor(1000)
+                .pauseFor(300)
                 .deleteAll()
                 .typeString("Robotics")
-                .pauseFor(1000)
+                .pauseFor(300)
                 .deleteAll()
                 .start();
             }}
           />
-        </p>
+        </div>
       </h1>
     </div>
   );
