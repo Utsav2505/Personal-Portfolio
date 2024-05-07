@@ -1,6 +1,7 @@
 import "@styles/global.css";
 import Starfield from "@components/Starfield";
 import LeftNavbar from "@components/LeftNav";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Utsav's Portfolio",
   description: "Thanks for visiting my portfolio!",
@@ -36,7 +37,10 @@ const RootLayout = ({ children }) => {
         <img src="./Logo.svg" className="logo" />
         <LeftNavbar />
         <div>
-          <main>{children}</main>
+          <main>
+            {children}
+            <SpeedInsights />
+          </main>
         </div>
       </body>
     </html>
