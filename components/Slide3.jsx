@@ -71,7 +71,7 @@ const Slide3 = () => {
     desc: "A Portfolio website to showcase my projects and skills. Developed using Next.js to support Full stack development and Green Sock for animations. Used and modified Vertical Timeline Library to showcase projects",
     tags: ["Next.js", "React.js", "Green Sock", "Javascript"],
     video: "",
-    github: "",
+    github: "https://github.com/Utsav2505/Personal-Portfolio",
   };
   const [viewProject, setViewProject] = useState("0");
   const [project, setProject] = useState(skillForge);
@@ -388,7 +388,10 @@ const Slide3 = () => {
                 <img src="./view.svg" />
                 View Project
               </div>
-              <div className="project-link">
+              <div
+                className="project-link"
+                onClick={() => router.push(faceRecognition.github)}
+              >
                 <img src="./github.svg" />
                 Visit Github Repo
               </div>
@@ -483,7 +486,10 @@ const Slide3 = () => {
                 <img src="./view.svg" />
                 View Project
               </div>
-              <div className="project-link">
+              <div
+                className="project-link"
+                onClick={() => router.push(portfolio.github)}
+              >
                 <img src="./github.svg" />
                 Visit Github Repo
               </div>
