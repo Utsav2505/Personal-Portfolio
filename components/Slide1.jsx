@@ -13,7 +13,8 @@ const Slide1 = () => {
           </div>
         </h1> */}
         <p>Start/&gt;</p>
-        <img src="./Hello.svg" />
+        <img src="./Hello.svg" className="hello-pc" />
+        <img src="./Hellomobile.svg" className="hello-mobile" />
       </div>
       <div className="my-photo">
         <img src="./Photo.svg" />{" "}

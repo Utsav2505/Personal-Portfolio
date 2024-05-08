@@ -36,7 +36,7 @@ const Slide4 = () => {
           <table className="skills-table">
             <tbody>
               <tr>
-                <td>Languages : </td>
+                <td className="type-19">Languages : </td>
                 <td>
                   <div className="tag archivo-400">C/C++</div>
                   <div className="tag archivo-400">Python</div>
@@ -45,7 +45,7 @@ const Slide4 = () => {
                 </td>
               </tr>
               <tr>
-                <td>Libraries : </td>
+                <td className="type-43">Libraries : </td>
                 <td>
                   <div className="tag archivo-400">Numpy</div>
                   <div className="tag archivo-400">Pandas</div>
@@ -60,7 +60,7 @@ const Slide4 = () => {
                 </td>
               </tr>
               <tr>
-                <td>Databases : </td>
+                <td className="type-22">Databases : </td>
                 <td>
                   <div className="tag archivo-400">Mongo DB</div>
                   <div className="tag archivo-400">My SQL</div>
@@ -68,7 +68,7 @@ const Slide4 = () => {
                 </td>
               </tr>
               <tr>
-                <td>Frameworks : </td>
+                <td className="type-35">Frameworks : </td>
                 <td>
                   <div className="tag archivo-400">Langchain</div>
                   <div className="tag archivo-400">Fast API</div>
@@ -78,7 +78,7 @@ const Slide4 = () => {
                 </td>
               </tr>
               <tr>
-                <td>Tools : </td>
+                <td className="type-19">Tools : </td>
                 <td>
                   <div className="tag archivo-400">Git/Github</div>
                   <div className="tag archivo-400">Postman</div>
@@ -89,7 +89,7 @@ const Slide4 = () => {
                 </td>
               </tr>
               <tr>
-                <td>Others : </td>
+                <td className="type-19">Others : </td>
                 <td>
                   <div className="tag archivo-400">Arduino</div>
                   <div className="tag archivo-400">CAD</div>

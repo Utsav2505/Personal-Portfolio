@@ -89,6 +89,10 @@ const Slide3 = () => {
         </div>
       ) : null}
       <h2 className="timeline-head archivo-200"> Academic Projects </h2>
+      <h2 className="sorry-msg">
+        Sorry, Timeline isn't compatible for this device right now! Use Desktop
+        to view this slide
+      </h2>
       <div className="timeline-container">
         <VerticalTimeline lineColor="#00C4AC" className="timeline">
           <VerticalTimelineElement
